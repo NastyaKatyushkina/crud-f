@@ -1,8 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Notes from './components/Notes';
+import './App.css';
+import Notes from './components/Notes/Notes';
 
 function App() {
-    return <Notes />;
+  return (
+    <Notes></Notes>
+  );
 }
 
 export default App;
